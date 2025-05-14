@@ -29,7 +29,7 @@ public class CsvDatasetGenerator {
             double macd = indicatorService.getMACD(series,i);
             double[] bb = indicatorService.getBollingerBandScore(series,i);
             double currentPrice = closePrices.get(i);
-            double futurePrice = closePrices.get(i + 12); // 1 saat sonra (varsayım: 5dk aralıkla 12 bar)
+            double futurePrice = closePrices.get(i + 12);
             double priceDiff = (futurePrice - currentPrice) / currentPrice;
 
             int label = 0;

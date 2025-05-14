@@ -11,7 +11,6 @@ public class MLTrainer {
     public RandomForest trainModel(String csvPath) throws Exception {
         DataFrame df = Read.csv(Paths.get(csvPath));
 
-        // label sütunu: -1 (SELL), 0 (HOLD), 1 (BUY)
         Formula formula = Formula.lhs("label");
 
         RandomForest model = RandomForest.fit(formula, df);

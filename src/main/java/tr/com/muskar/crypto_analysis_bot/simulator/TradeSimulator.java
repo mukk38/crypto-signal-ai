@@ -43,9 +43,9 @@ public class TradeSimulator {
     }
 
     public void printTradeSummary() {
-        System.out.println("📊 Trade geçmişi:");
+        System.out.println(" Trade geçmişi:");
         tradeHistory.forEach(System.out::println);
-        System.out.println("💰 Toplam Kar/Zarar: $" + totalProfit);
+        System.out.println(" Toplam Kar/Zarar: $" + totalProfit);
         tradeHistory.clear();
     }
 }

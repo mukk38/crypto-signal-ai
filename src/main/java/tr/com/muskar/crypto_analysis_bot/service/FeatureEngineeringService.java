@@ -15,7 +15,7 @@ public class FeatureEngineeringService {
 
     public FeatureVector extractFeatures(BarSeries series) {
         int endIndex = series.getEndIndex();
-        if (endIndex < 20) return null; // Yeterli veri yoksa null dön
+        if (endIndex < 20) return null;
 
         ClosePriceIndicator closePrice = new ClosePriceIndicator(series);
 

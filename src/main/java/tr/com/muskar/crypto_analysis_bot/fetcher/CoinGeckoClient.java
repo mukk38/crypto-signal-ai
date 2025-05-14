@@ -75,7 +75,7 @@ public class CoinGeckoClient {
             List<List<Object>> prices = (List<List<Object>>) response.get("prices");
 
             return prices.stream()
-                    .map(data -> ((Number) data.get(1)).doubleValue()) // sadece kapanış fiyatı
+                    .map(data -> ((Number) data.get(1)).doubleValue())
                     .collect(Collectors.toList());
 
         } catch (Exception e) {

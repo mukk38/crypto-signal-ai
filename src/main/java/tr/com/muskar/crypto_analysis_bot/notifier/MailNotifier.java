@@ -24,7 +24,7 @@ public class MailNotifier {
         SimpleMailMessage message = new SimpleMailMessage();
         message.setFrom(from);
         message.setTo(to);
-        message.setSubject("📈 Kripto Sinyali: " + coin.toUpperCase());
+        message.setSubject(" Kripto Sinyali: " + coin.toUpperCase());
         message.setText("Sinyal: " + signal + "\nFiyat: $" + price + "\nZaman: " + java.time.LocalDateTime.now());
 
         try {

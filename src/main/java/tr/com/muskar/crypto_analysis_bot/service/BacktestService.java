@@ -41,7 +41,7 @@ public class BacktestService {
 
         var series = indicatorService.createBarSeriesFromClosingPrices(closePrices);
 
-        for (int i = 14; i < series.getBarCount(); i++) { // 14 sonrası RSI kullanılabilir
+        for (int i = 14; i < series.getBarCount(); i++) {
             double rsi = indicatorService.getRSI(series, i);
             double macd = indicatorService.getMACD(series, i);
             double[] bb = indicatorService.getBollingerBandScore(series, i);

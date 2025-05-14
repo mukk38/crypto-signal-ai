@@ -19,7 +19,7 @@ public class MLModelEvaluator {
                 DoubleVector.of("bollinger_score", new double[]{fv.getBollingerPercentB()}),
                 DoubleVector.of("price_change", new double[]{fv.getPriceChangePercent()})
         );
-        return model.predict(input)[0]; // -1, 0, 1
+        return model.predict(input)[0];
     }
 }
 

@@ -38,7 +38,7 @@ public class Ta4jIndicatorService {
         EMAIndicator signalLine = new EMAIndicator(macd, 9);
         Num macdValue = macd.getValue(series.getEndIndex());
         Num signalValue = signalLine.getValue(series.getEndIndex());
-        return macdValue.minus(signalValue).doubleValue(); // MACD Histogram
+        return macdValue.minus(signalValue).doubleValue();
     }
 
     public double[] calculateBollingerBands(List<Double> closePrices) {
