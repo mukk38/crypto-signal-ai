@@ -30,7 +30,7 @@ This bot continuously monitors selected cryptocurrencies and:
 
 ---
 
-## ⚙ Features
+##  Features
 
 -  AI-based signal prediction
 -  5-minute interval scanning with Spring Scheduler
@@ -41,7 +41,7 @@ This bot continuously monitors selected cryptocurrencies and:
 
 ---
 
-## ⚙ Configuration (`application.properties`)
+##  Configuration (`application.properties`)
 
 To run the project successfully, you need to configure the following properties inside your `src/main/resources/application.properties` file:
 
@@ -93,7 +93,7 @@ Default configuration assumes MongoDB is running locally on port 27017.
 
 Database name: cpa
 
-## 🛠 Coming Soon
+##  Coming Soon
 
 - Live trade simulation with balance tracking
 - Reinforcement learning based signal adaptation
