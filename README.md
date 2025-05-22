@@ -18,7 +18,7 @@ This bot continuously monitors selected cryptocurrencies and:
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 - **Java 17**
 - **Spring Boot**
@@ -30,24 +30,24 @@ This bot continuously monitors selected cryptocurrencies and:
 
 ---
 
-## ⚙️ Features
+## ⚙ Features
 
-- 🧠 AI-based signal prediction
-- ⏱️ 5-minute interval scanning with Spring Scheduler
-- 🧪 TradeSimulator for historical backtests
-- 🗂️ CSV exporter for ML training data
-- 🔔 Multi-channel notifications (email, Telegram)
-- 💾 MongoDB signal & trade history storage
+-  AI-based signal prediction
+-  5-minute interval scanning with Spring Scheduler
+-  TradeSimulator for historical backtests
+-  CSV exporter for ML training data
+-  Multi-channel notifications (email, Telegram)
+-  MongoDB signal & trade history storage
 
 ---
 
-## ⚙️ Configuration (`application.properties`)
+## ⚙ Configuration (`application.properties`)
 
 To run the project successfully, you need to configure the following properties inside your `src/main/resources/application.properties` file:
 
 ---
 
-### 📧 Email Settings (via Gmail SMTP)
+###  Email Settings (via Gmail SMTP)
 
 ```properties
 spring.mail.host=smtp.gmail.com
@@ -66,7 +66,7 @@ spring.mail.password: App password generated via Google (not your Gmail login pa
 alert.mail.to: Receiver email address for alerts.
 ️ Important: You must enable 2FA in your Google account and generate an App Password to use SMTP.
 
-### 📲 Telegram Bot Settings
+###  Telegram Bot Settings
 ``` properties
 telegram.bot.token=123456789:ABCDEF1234567890abcdef
 telegram.chat.id=-123456789
@@ -77,7 +77,7 @@ telegram.chat.id: Chat ID of the Telegram user or group where alerts will be sen
 
 For group chat IDs, make sure the bot is added to the group and use a negative sign (e.g., -123456789).
 
-### 🍃 MongoDB Settings
+###  MongoDB Settings
 
 ```properties
 #spring.data.mongodb.host=localhost
@@ -93,7 +93,7 @@ Default configuration assumes MongoDB is running locally on port 27017.
 
 Database name: cpa
 
-## 🛠️ Coming Soon
+## 🛠 Coming Soon
 
 - Live trade simulation with balance tracking
 - Reinforcement learning based signal adaptation
