@@ -24,7 +24,7 @@ This bot continuously monitors selected cryptocurrencies and:
 - **Spring Boot**
 - **TA4J** – Technical analysis library
 - **Smile** – Machine learning library
-- **MongoDB** – Sinyal/işlem geçmişi
+- **MongoDB** – No SQL DB
 - **Telegram Bot API**, **JavaMail**
 - **CoinGecko API** – Real-time price data
 
